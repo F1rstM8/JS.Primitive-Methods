@@ -1,6 +1,7 @@
 
 
 
+
 console.log("--- ЗАВДАННЯ 1 ---");
 const originalString = "Hello World";
 
@@ -30,3 +31,10 @@ function formatDate(dateString) {
 }
 console.log(formatDate("2021-22-09")); 
 
+console.log("--- ЗАВДАННЯ 5 ---");
+function isEqual(str1, str2) {
+    return str1.toLowerCase() === str2.toLowerCase();
+}
+console.log(isEqual('pApA', 'papa'));     
+console.log(isEqual('qwerty', 'QWErty')); 
+console.log(isEqual('aaa', 'EEE'));       
